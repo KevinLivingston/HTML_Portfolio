@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+#contact_info{
+    float: right;
+    background-color: black;
+    color: green;
+
+}
+
+.mother_table{
+    background-color:purple;
+   
+}
+a{
+    color: rgb(0, 239, 0);
+}
+.input_index{/*Not Working*/
+    list-style-image: url("HTML_Portfolio\PICS\List_Marker.png");
+
+} 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
