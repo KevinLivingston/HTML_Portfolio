@@ -12,14 +12,37 @@ h1{
 }
 
 .mother_table{
-    background-color:purple;
+    padding: 20px;
+    max-width: 25%;
    
 }
-a{
-    color: rgb(0, 239, 0);
+.subject>a, .index>a{
+    color: red; 
 }
-.input_index{/*Not Working*/
+.index{/*Not Working*/
     list-style-image: url("HTML_Portfolio\PICS\List_Marker.png");
 
 } 
+table,th,td{
+    border-style: solid;
+    padding:10px;
+    border-color: blue;
+    border-collapse: collapse;
+}
+th{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+td{text-align: right;}
+
+td:hover{
+    color:red;
+}
+#Receivers{
+    background: linear-gradient(red,blue);
+    back
+    
+}
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

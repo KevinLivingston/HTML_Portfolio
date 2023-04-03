@@ -4,9 +4,22 @@
 <head>
     <title> QUESTIONAIRE </title>
     <style>
+        body{background-color: yellow;}
+        h3{
+            color: rgb(37, 7, 133);
+        }
         #survey{
             background-color: orangered;
             color: blue;
+            max-width: 29%;
+            padding: 10px;
+        }
+        #Submit{
+            color:red;
+            text-shadow: 0px 3px 3px 0px black;
+        }
+        #Submit:hover{
+            color:green;
         }
     </style>
     <meta name="">
@@ -18,28 +31,30 @@
         is to practice/sharpen
         my skills as a web developer. Hoping to show a good use of forms throughout this page. THIS PAGE IS COMPLETELY
         VOLUNTARY, just looking to
-        learn and have fun doing so. Then looking to display the results on the main landing page. <br>
+        learn and have fun doing so. <br>
     </h4>
-    <h5>Below are <b>5</b> questions/actions to perform, once again just for practice and fun. Answer whatever you are
+    <b><h2>Below are  questions/actions to perform, once again just for practice and fun. Answer whatever you are
         comfortable with. Thank you <img src="C:\Users\Kevin\Documents\HTML_Portfolio\PICS\smiley.png" alt="SMILEY FACE"
-            width="50" height="50"> </h5>
+            width="50" height="50"> </h2>
+        </b>
             <div id ="survey">
     <form action="">
-        First Name
+    <h3>First Name</h3>
         <input type="text" name="Name" id="firstName"><br>
-        How did you discover this site?<br>
+    <h3>How did you discover this site?</h3><br>
         <input type="radio" name="Discovery" id="Friend"> Friend
         <input type="radio" name="Discovery" id="Kevin">Kevin <br>
-        Choose some of your favorite pizza toppings <br>
+        <h3> some of your favorite pizza toppings</h3> <br>
         <input type="checkbox" name="toppings" id="Pepperoni"> Pepperoni
         <input type=checkbox name="toppings" id="Sausage">Sausage
         <input type=checkbox name="toppings" id="Chicken">Chicken
         <input type=checkbox name="toppings" id="Peppers">Peppers
         <input type=checkbox name="toppings" id="Mushroom">Mushrooms
         <input type=checkbox name="toppings" id="Pineapple">Pineapple <br>
+        <h3>What is your favorite color?</h3><br> 
         <input type="color" name="Colors" id="Color"> <br><br>
         WANT A BUTTON TO INCREMENT PER CLICK, HOPING FOR A GLOBAL SUM. <br>
-        <input type="Submit" name="Submit" id="Submit">
+        <input type="Submit" name="Submit" id="Submit" >
 
     </form>
 </div>
